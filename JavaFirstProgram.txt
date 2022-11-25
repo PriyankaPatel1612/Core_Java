@@ -1,0 +1,44 @@
+class First
+{
+   public static void main(String args[])
+    {
+       System.out.println("My first java program");
+     }
+}
+
+//class keyword- 
+predefined keyword
+class name start with capital letter
+
+//curly braces
+{
+       ----scope----
+}
+
+//void-
+return type
+
+//main-
+function name
+start point
+
+//public
+ main is under class then we have to decalre public 
+then compiler compiles it
+we use public keyword because if function is out of class then it is by default public but in java main method is under the class then it is not public or accessible. then we have to declare the public keyword.
+
+
+//static
+class run with obj
+similarly for main method we need obj
+in c++ main() run automatically. and for classes, we create objects to run. but in java main method itself is in under the class. then we have to create obj for main to run then it is not practically possible, then we use static keword
+if we declare static keword then it will obj independent
+we run class without obj by declaring static object and static data member run without obj
+
+//System.out.print
+In cpp or c we used headerfiles but in java there are packages which also contains classes, methods and variables
+In java there is package io which contain PrintStream class and that class contain println method 
+so to use method we have to use first package then class and then method, this will become lengthy
+due to this we created System class which is also imported with io package and PrintStream class but for System we have to create obj without creating obj we class is declared static.
+then with the static keword we can easily access println method like this System.out.println()
+System is the class we decalred and out is the object of PrintSt
