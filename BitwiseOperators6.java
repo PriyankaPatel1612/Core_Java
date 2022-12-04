@@ -24,3 +24,4 @@ class BitwiseOperators6
   x/2power n =10/4= 2(integer divide by integer returns integer)
 
   note: In right shift operator after shifting,  postive no. will remain positive and negative no. will remain negative
+*/
