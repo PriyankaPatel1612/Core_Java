@@ -1,17 +1,17 @@
 /*Pattern
-   1 1 1 1 1
-   2 2 2 2
+   5 
+   4 4 
    3 3 3
-   4 4
-   5
+   2 2 2 2
+   1 1 1 1 1
 */
 
-class Pattern12
+class Pattern10
 {
   public static void main(String args[])
   {
      int i,j;
-     for(i=1 ; i<=5 ; i++)
+     for(i=5 ; i>=1 ; i--)
      {
         for(j=5 ; j>=i ; j--)
          {

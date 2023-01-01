@@ -1,12 +1,12 @@
 /*Pattern
-   1 1 1 1 1
-   2 2 2 2
-   3 3 3
-   4 4
+   5 4 3 2 1
+   5 4 3 2
+   5 4 3
+   5 4 
    5
 */
 
-class Pattern12
+class Pattern11
 {
   public static void main(String args[])
   {
@@ -15,7 +15,7 @@ class Pattern12
      {
         for(j=5 ; j>=i ; j--)
          {
-           System.out.print(i + " ");
+           System.out.print(j + " ");
          }
         System.out.println();
      }
