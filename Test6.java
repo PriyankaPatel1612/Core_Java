@@ -8,7 +8,7 @@ class Test6
     min=a[0];
     for(i=1 ; i<a.length ; i++)
     {
-      if (min>a[i])
+      if (a[i]<min)
       {
         min=a[i];
       }
