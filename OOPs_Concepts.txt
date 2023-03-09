@@ -1,0 +1,26 @@
+#Class,Object and Instance variable
+
+Variable
+-->Local
+      variable which declared inside the method are local variable.
+-->Instance(or, non-static variable) /Class(or, static variable) 
+      variable declared inside the class can be instance or static variable/class variable.
+
+      case1: instance variable/ non-satic variable
+      A variable is said to be instance when it is declared inside the class.
+      case2: class variable/static variable
+      A variable is said to be static or class when it is declared inside the class or static keyword
+is written before variable.
+
+Points to note:
+-->we cannot access instance variable in method without creating object.
+-->case1: because in java main method is static, and static method can only access static variables without object.
+     case2: when we are declaring instance variable inside the class then the memory is not allocated, for allocating memory to the instance variable we have to create object.
+-->to access instance or non-static variable we have to create object.
+
+Object
+-->In java a variable of class type is called a reference.
+     example: Test t1;                //t1 is reference (memory not allocated, to allocate memory we have to create object)
+-->In cpp constructor called automatically by creating object but,
+      In java we have to create an object and call constructor
+      example: Test t1 = new Test();   //t1 is object(memory is allocated, new keyword allocates the memory)
