@@ -24,3 +24,20 @@ Object
 -->In cpp constructor called automatically by creating object but,
       In java we have to create an object and call constructor
       example: Test t1 = new Test();   //t1 is object(memory is allocated, new keyword allocates the memory)
+
+##if we declare instance variable of type int,float,double,byte then it will initialized with zero, and in char it will initialized with zero by the character form \u0000 like this, similarly in bool it will initialized with false because the value of false is zero.
+
+##When we try to print obj then toString() method is called initially then it prints the address of the object for example:
+Test@abcd1234  --->  (classname@hashcode)     //@ is seprator
+if we want to print only hashcode then we can use hashCode() method it will print the hashcode in integer form.
+
+##JVM recognize objects by its hashcode it creates hashcodes when we creating objects.
+like how many objects we create, it gives different hashcodes to objects.
+all hashcodes are different because the case arises where objects have same name that's why the hashcodes are different like students have their enrollment. 
+
+##Mutability of object
+variable of class type is a reference
+it is capable to hold the hashcode of another object and, 
+it allows to make changes in the value of object.
+this concept is known as mutability
+-->mutability of object means that another object have authority to hold and change the value of obj. In other words means one or another object is mutually able to change the value of objects.
