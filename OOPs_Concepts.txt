@@ -41,3 +41,24 @@ it is capable to hold the hashcode of another object and,
 it allows to make changes in the value of object.
 this concept is known as mutability
 -->mutability of object means that another object have authority to hold and change the value of obj. In other words means one or another object is mutually able to change the value of objects.
+
+Constructors
+// name of constructor is same as class name
+// doesn't have any return type
+// we are not allowed to return anything
+// three types of Constructors
+// default
+// no argument
+// copy constructor
+// there is no class without constructor
+// if required then we create constructor otherwise system create default constructor
+// we cannot inherit Constructors
+// if we want to create an object then it is compulsory to call constructor and to call constructor new keyword is required.
+
+var args
+if want to pass many arguments without using array then we can use ellipsis
+"...a"
+if we arrguments in ellipsis then it will treat as array
+we can values as an argument, ...a (ellipsis a) take arguments and then used as array elements but the difference is that after the summation of elements it releases memory.
+if we want to take many arguments
+void add(int ...a,int x)  this is invalid ellipsis must be the last perimeter
