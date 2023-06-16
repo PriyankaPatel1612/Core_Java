@@ -99,4 +99,15 @@ same as above method only the difference is we pass string with index and it ret
 #trim()
 it removes the leading and trailing spaces, and it doesn't take any parameter and returns anything
 
+#string array
+  for searching-
+  { we can use indexOf method, in this method when we use then we can find elements for example if we have to find the array    element which is starting with "ind" then we can use indexOf()  method by passing parameter ind if the word is starting with ind than it returns index 0.
+  we can also used for searching like the word or element if containing "in" then we again use indexOf() method by passing pararmeter "in" if it conatains in then it returns the index or not then returns -1.
+ }
+  for sorting
+  { similary we sorted array elements, in strings we use compareTo() method because it returns the differnece of string if the strings are greater then it will returns positive no and if less then it returns negative no. according to that we can compare string and sort that.
+  }
+
+#
+
 
