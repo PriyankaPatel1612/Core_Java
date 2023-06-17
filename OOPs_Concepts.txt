@@ -62,3 +62,36 @@ if we arrguments in ellipsis then it will treat as array
 we can values as an argument, ...a (ellipsis a) take arguments and then used as array elements but the difference is that after the summation of elements it releases memory.
 if we want to take many arguments
 void add(int ...a,int x)  this is invalid ellipsis must be the last perimeter
+
+#static keyword
+it can be used in three ways--
+variable declaration
+method declaration
+static block
+-->Properties<--
+It's a class variable 
+when the class loads memory is allocated to static variable
+it means the memory alloacation of static memory is dependent on loading of class rather than creation of object like instance variable
+It also means that there will only exist a single copy of static variable for all the objects,and all the objects will share the commonly allocated memory.
+Objects are not allowed create separate memory for static variables
+As the static object are independent from objects then we can acces them without any object directly through the class name.
+Static method is also independent from the object 
+It is compulsion that static method can have either static variables or local variable
+Static block is similar to static method but the only difference is that it has more priority than main method
+
+#inheritance
+It is the property in which the class can aquire the property of another class
+-->Single level inheritance<--
+single parent single child class in program
+-->Multilevel inheritance<--
+a child class can be act like parent class then it is multilevel inheritance
+-->Hierarchical Inheritance<--
+a class having more than one child class
+-->Multilevel Inheritance<--
+a class having more than one parent class. It can be achieved by using interface.
+-->Hybrid Inheritance<--
+combination of multiple and hirarchical inheritance.
+
+#behaviours of constructors in inheritance
+when the child class object is created then the first it will call its parent constructor then child constructor is called
+
