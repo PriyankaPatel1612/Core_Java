@@ -95,3 +95,15 @@ combination of multiple and hirarchical inheritance.
 #behaviours of constructors in inheritance
 when the child class object is created then the first it will call its parent constructor then child constructor is called
 
+#Reference of parent class can hold the object of child class
+
+#Method Overriding
+
+#Runtime polymorphism/Dynamic method dispatch
+
+#final keyword
+
+#abstract keyword
+-->we can't create object of abstract class
+-->it is compulsion that abstract method should be contain in abstract class
+-->all the abstract method should be implented in child classes
