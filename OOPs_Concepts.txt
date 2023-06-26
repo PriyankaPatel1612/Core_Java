@@ -107,3 +107,9 @@ when the child class object is created then the first it will call its parent co
 -->we can't create object of abstract class
 -->it is compulsion that abstract method should be contain in abstract class
 -->all the abstract method should be implented in child classes
+
+#interface 
+-->pure abstract form of classs
+-->public abstract by deafault written before class name
+-->it means child class should have define all the abstract method of parent class
+-->class extends class, class implements interface, interface extends interface, class extends class implements interface1,interface2
