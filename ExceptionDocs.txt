@@ -1,0 +1,77 @@
+Exception
+it is runntime error
+
+
+                                                        Object
+                                                             |
+                                                    Throwable
+                                         ___________|____________       
+                                        |                                        |
+                               Exception                         Error
+                            _______|________
+                           |                          |
+                 Checked              Runtime Exception
+                                                      |
+                                                 Unchecked 
+
+
+ #Checked
+
+#Unchecked
+
+#5 keywords
+ 
+try
+catch
+throw
+thows
+finally
+
+#JRH- Java Runtime Handler
+where exception occurs then the java runtime handler throws exception
+it throws the object of that exception
+we use try catch block to handle exception
+catch block catch the object of that exception thrown by try block
+In catch block it catch the exception in its reference
+when we print the refrence which catches the exception then the to string method is called and it prints the exception 
+
+
+-->single try block can handle multiple exceptions with multiple catch block
+-->a try block can handle one exception at a time
+-->we can also handle expception by giving user-friendly message
+
+finally 
+finally is an always executable block
+it means it executes in all the situation either exception occurs or not(or handled or not)
+before termination  of program finally block executes
+
+toString()
+when the exception occurs it will print the object but hashcode is not printed (java.lang.ArithmeticException) like that exception prints it means when the object is printed the toString method is called and it is overriden.
+
+throw keyword
+we can use throw keyword in two ways-
+a user defined exception
+to update the message of an existing exception
+
+Note: When we create our own exception then we have to extend Exception(checked exception) class, reference of parent class can hold the object of child class
+
+throws keyword
+it will handover the exception where it is called
+if any exception is occuring in program then first it will check there is try block or not, if not then it will check throws exception. If exception is same as that object that then it will throw exception where the method is being called.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
