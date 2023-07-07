@@ -23,7 +23,21 @@ public int getPriority()
 boolean isAlive()        //
 public static void sleep(long miliseconds)throws IntrruptedException
 public void join()throws IntrruptedExecution
-public void run()
-public void start()
+public void run()          //running state
+public void start()         //runnable state
 
+Variables in thread class
+public static final int  MIN_PRIORITY =1;
+public static final int  MAX_PRIORITY =10;
+public static final int  NORM_PRIORITY =1;
 
+Sequence of programs
+1)CurrentThreadDemo
+2)CurrentThreadDemo1
+3)ThreadDemo
+4)ExtendThread
+5)MultiThreadDemo
+6)DemoJoin
+7)SynchNot
+8)Synch1
+9)Synch2
