@@ -1,0 +1,29 @@
+-->Thread
+Thread is light weight process
+
+-->Multithreading
+Capability of a system to execute mutliple threads simultaneously is called multithreading.
+
+Runnable (interface)
+
+Thread (class)
+child of runnable
+
+public void run()
+if we want to create or run thread then we have to use this metho
+why we should use this?
+because it is defined in interface, and all the defined method in interface are abstract. so that we have to defined in method.
+
+Methods of thread class
+public static Thread currentThread()     //shows current running thread
+public void setName(String name)
+public String getName()
+public void setPriority(int p)         //1 to 10
+public int getPriority()    
+boolean isAlive()        //
+public static void sleep(long miliseconds)throws IntrruptedException
+public void join()throws IntrruptedExecution
+public void run()
+public void start()
+
+
