@@ -4,17 +4,17 @@ Thread is light weight process
 -->Multithreading
 Capability of a system to execute mutliple threads simultaneously is called multithreading.
 
-Runnable (interface)
+-->Runnable (interface)
 
-Thread (class)
+-->Thread (class)
 child of runnable
 
-public void run()
-if we want to create or run thread then we have to use this metho
+-->public void run()       //method
+if we want to create or run thread then we have to use this method
 why we should use this?
 because it is defined in interface, and all the defined method in interface are abstract. so that we have to defined in method.
 
-Methods of thread class
+-->Methods of thread class
 public static Thread currentThread()     //shows current running thread
 public void setName(String name)
 public String getName()
@@ -26,12 +26,12 @@ public void join()throws IntrruptedExecution
 public void run()          //running state
 public void start()         //runnable state
 
-Variables in thread class
+-->Variables in thread class
 public static final int  MIN_PRIORITY =1;
 public static final int  MAX_PRIORITY =10;
 public static final int  NORM_PRIORITY =1;
 
-Sequence of programs
+-->Sequence of programs
 1)CurrentThreadDemo
 2)CurrentThreadDemo1
 3)ThreadDemo
@@ -41,3 +41,11 @@ Sequence of programs
 7)SynchNot
 8)Synch1
 9)Synch2
+
+-->Synchronizaton
+It is a process to lock the state of thread
+It means that the thread will not share its resources with any other thread until it termination
+Two ways to achieve synchronization
+1)Synchronize block/object
+2)Method synchronized
+
