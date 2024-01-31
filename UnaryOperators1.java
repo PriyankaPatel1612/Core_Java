@@ -5,6 +5,6 @@ class UnaryOperators1
         int a=10,b,c;
         b=a++;
         c=++b;
-       System.out.println(a + " " + b + " " + c);  //11 11 11
+       System.out.println(a + "  " + b + " " + c);  //11 11 11
       }
 }
